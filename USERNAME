@@ -1,0 +1,19 @@
+[Unit]
+Description=Joystream Node
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/
+ExecStart=/root/joystream-node \
+        --chain joy-testnet-4.json \
+        --pruning archive \
+        --validator \
+        --name <USERNAME>
+Restart=on-failure
+RestartSec=3
+LimitNOFILE=8192
+
+[Install]
+WantedBy=multi-user.target
