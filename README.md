@@ -1,4 +1,4 @@
-# H1 OPTION 1: Installation with script
-wget https://raw.githubusercontent.com/IeSua-lab/joystream-node/main/joystream-node-install.sh  
-chmod +x joystream-node-install.sh  
-./joystream-node-install.sh 
+# H1 Installation with script
+H5 wget https://raw.githubusercontent.com/IeSua-lab/joystream-node/main/joystream-node-install.sh  
+H5 chmod +x joystream-node-install.sh  
+H5 ./joystream-node-install.sh 
