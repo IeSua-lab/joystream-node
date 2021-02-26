@@ -9,7 +9,6 @@ echo "*      working community instructions:                                    
 echo "*      https://github.com/Joystream/helpdesk/tree/master/roles/validators  *"
 echo "*      https://seainvestments1.medium.com/b3608a8be10e                     *"
 echo "****************************************************************************"
-
 read -n 1 -s -r -p "Press any key to continue or CTRL+C to exit ... "
 GREEN='\033[0;32m'      #  ${GREEN}
 sudo apt-get update
