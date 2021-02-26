@@ -7,7 +7,7 @@ echo "*      https://github.com/Joystream/helpdesk/tree/master/roles/validators 
 echo "*      https://seainvestments1.medium.com/b3608a8be10e                     *"
 echo "****************************************************************************"
 
-read -n 1 -s -r -p "Press any key to continue"
+read -n 1 -s -r -p "Press any key to continue or CTRL+C to exit..."
 
 #My public key 5EyRepuyZTM2rjHwbGfjBmjutaR5QTxLULcra2aToigtpxb6
 #My node name wasabi
