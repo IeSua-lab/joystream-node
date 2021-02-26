@@ -6,12 +6,9 @@ echo "*      working community instructions:                                    
 echo "*      https://github.com/Joystream/helpdesk/tree/master/roles/validators  *"
 echo "*      https://seainvestments1.medium.com/b3608a8be10e                     *"
 echo "****************************************************************************"
-
 read -n 1 -s -r -p "Press any key to continue or CTRL+C to exit..."
-
 #My public key 5EyRepuyZTM2rjHwbGfjBmjutaR5QTxLULcra2aToigtpxb6
 #My node name wasabi
-
 sudo apt-get update -y
 sudo apt-get install nano -y
 sudo apt install apt-transport-https ca-certificates curl software-properties-common -y
@@ -24,13 +21,10 @@ cd ~/
 wget --no-check-certificate https://github.com/Joystream/joystream/releases/download/v7.5.0/joystream-node-3.3.0-fdb75f5ec-x86_64-linux-gnu.tar.gz
 tar -vxf joystream-node-3.3.0-fdb75f5ec-x86_64-linux-gnu.tar.gz
 wget --no-check-certificate https://github.com/Joystream/joystream/releases/download/v7.5.0/joy-testnet-4.json
-
 cd /etc/systemd/system
 sudo touch joystream-node.service
 > joystream-node.service
-
 read -p "Enter your node name and press [ENTER]:" username
-
 echo [Unit] | sudo tee --append /etc/systemd/system/joystream-node.service
 echo Description=Joystream Node | sudo tee --append /etc/systemd/system/joystream-node.service
 
