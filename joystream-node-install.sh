@@ -1,5 +1,4 @@
 #/bin/bash
-cd ~
 echo "****************************************************************************"
 echo "*      This script will install and configure your Joystream node.         *"
 echo "*      The script was created based on the official instructions and the   *"
